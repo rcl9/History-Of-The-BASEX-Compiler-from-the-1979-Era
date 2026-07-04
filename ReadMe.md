@@ -12,7 +12,7 @@ You can learn more about BASEX in the 7 page "<a href="https://archive.org/detai
 
 As stated by an AI agent, "*BASEX was a clever, resource-efficient tool for 1970s 8-bit hobbyists who wanted BASIC-like simplicity with compiled performance on 8080 hardware. It exemplifies the creative, low-level software experimentation of the pre-IBM PC era, when publishing full compiler listings with source code in a printed manual was a practical distribution method. It was one of several niche languages/compilers, aimed at enthusiasts who built or modified their own systems.*"
 
-As noted in the January 1981 review of BASEX by Mark Northrup in the Sorcerers Apprentice, "In general, the faults far out-weigh the benefits for this compiler. It is faster than BASIC but you pay for this speed with longer debugging time and much more coding. It is very good for animated graphic games, but not for most other applications". Please refer to the reviews further down in this page. 
+As noted in the January 1981 review of BASEX by Mark Northrup in the Sorcerers Apprentice, "*In general, the faults far out-weigh the benefits for this compiler. It is faster than BASIC but you pay for this speed with longer debugging time and much more coding. It is very good for animated graphic games, but not for most other applications*". Please refer to the reviews further down in this page. 
 
 A BASEX program is defined by a 3 character opcode with variable number of arguments, such as this contrived code:
 
@@ -35,6 +35,7 @@ JMP NE TAG
 
 In rebuilding my Exidy Sorcerer [Space Invaders development environment](https://github.com/rcl9/Resurrecting-and-Rebuilding-Sorcerer-Space-Invaders-from-1980--BASEX-) from the 1980-era I came to realize that there was next to no information online about BASEX. This repository strives to rebuild a basic history of BASEX as a time capsule for others to reference in the future. In no means is this a defacto historical snapshot but it does capture most of what I came to resurrect from my early 1980's hand's on experience with it. It was indeed faster for my Space Invader's game but far too cumbersome to use and very quirky. 
 
+<br>
 <div style="text-align:center">
 <p><img src="https://github.com/rcl9/Resurrecting-and-Rebuilding-Sorcerer-Space-Invaders-from-1980--BASEX-/blob/main/Images/snap2.webp" alt="" style="width:50%; height:auto;">
 </div>
@@ -50,9 +51,9 @@ Microsoft's BASCOM (BASIC compiler) did not come out until 1979 and Digital Rese
 
 As such, there was a market for a lower priced "BASIC-like compiler" which did not require a floppy disk, could be run in minimal memory and from a cassette tape interface for data storage.  
 
-For further perspective I'll mention that it was commonplace up until the early 1980s to buy a magazine, monthly compendium ("Soft Side") or book (ie. BASEX for $8) and then spend hours typing in the program listing. I spent years of my life typing in endless numbers of BASIC and assembler programs after which the files would then be saved to 1200 baud data cassette files. Buying commercial software on cassette tape was rather expensive at the time and the thought of buying a program on 8" floppy diskette was quite unthinkable for those other than companies with deep pockets. 
+For further perspective I'll mention that it was commonplace up until the early 1980s to buy a magazine, monthly compendium ("SoftSide") or book (ie. BASEX for $8) and then spend hours typing in the program listing. I spent years of my life typing in endless numbers of BASIC and assembler programs after which the files would then be saved to 1200 baud data cassette files. Buying commercial software on cassette tape was rather expensive at the time and the thought of buying a program on 8" floppy diskette was quite unthinkable for those other than companies with deep pockets. 
 
-I'll also point out that during that era of the late 1970s and up to the late 1980s I would often encounter a new niche computer language almost every month, notably via the CP/M SIGM and LifeBoat collection of 8" disks. I had been tempted many times to try some of them but decided to keep with Z80 assembler until the late 1980s when I moved to C. In those days it was more of the norm for colleges, universities and other research + educational institutions to write and support their own languages (such as Turing from the University of Toronto and WATFOR from the Univ of Waterloo, among many many others). As such, BASEX fell into the realm of a niche compiled BASIC language, suitable for the time and era of minimalist computing. 
+I'll also point out that during that era of the late 1970s and up to the late 1980s I would often encounter a new niche computer language almost every month, notably via the CP/M SIGM and LifeBoat collection of 8" disks. I had been tempted many times to try some of them but decided to keep with Z80 assembler until the late 1980s when I moved to C. In those days it was more of the norm for colleges, universities and other research + educational institutions to write and support their own languages (such as Turing from the University of Toronto and WATFOR from the University of Waterloo, among many many others). As such, BASEX fell into the realm of a niche compiled BASIC language, suitable for the time and era of minimalist computing. 
 
 From Paul's opening comments in the BASEX manual:
 
@@ -118,9 +119,9 @@ Please refer to my [hand written command list for BASEX](</Other info/List of BA
 
 	Mark Northrup provides a hand's on review of using BASEX. He was generally not too happy about using it. I can chime in and say that his comments were valid and inline with my own "head banging" experience of using BASEX:
 
-	"The major problem with BASEX is that it is somewhat weak on error checking as Dr. Warme had warned in Dr. Dobbs. It is very weak, although none of the programs I have written went "wild", there are far too many ways to get into frustrating trouble. Inserting and deleting lines is at best a dangerous proposition."
+	"The major problem with BASEX is that it is somewhat weak on error checking as Dr. Warme had warned in Dr. Dobbs. It is very weak, although none of the programs I have written went "wild", there are far too many ways to get into frustrating trouble. Inserting and deleting lines is at best a dangerous proposition.
 
-	"In general, the faults far out-weigh the benefits for this compiler. It is faster than BASIC, but you pay for this speed with longer debugging time and much more coding. It is very good for animated graphic games, but not for most other applications."
+	In general, the faults far out-weigh the benefits for this compiler. It is faster than BASIC, but you pay for this speed with longer debugging time and much more coding. It is very good for animated graphic games, but not for most other applications."
 
 - Snippet from the March 1979 issue of BYTE magazine:
 
