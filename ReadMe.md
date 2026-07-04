@@ -3,14 +3,14 @@
 This repo acts as a tribute and time capsule to the long lost BASEX compiler of the 1979 era of early computing.
 
 <div style="text-align:center">
-<img src="https://github.com/rcl9/Resurrecting-and-Rebuilding-Sorcerer-Space-Invaders-from-1980--BASEX-/blob/main/Images/snap2.webp" alt="" style="width:100%; height:auto;">
+<img src="/Banners/banner1.webp" alt="" style="width:75%; height:auto;">
 </div>
 
 The BASEX compiler and runtime system was written by Paul K. Warme in the late 1970s as a faster byte-code interpreted version of BASIC that ran on the 8080 and Z80 platforms. It was touted and marketed as running 5 to 20 times faster than BASIC but in reality that was not quite the case. It sat half-way in speed between a BASIC interpreter and pure assembler. Its price was in the US$25-US$33 range + US$8 for the printed manual (in 1980s dollars).
 
 You can learn more about BASEX in the 7 page "<a href="https://archive.org/details/dr_dobbs_journal_vol_03">BASEX: A Fast, Compact Interactive Compiler for Microcomputers</a>" article written by its author Paul Warme in Dr. Dobbs - Vol 3 #30, page 26 and/or 451.
 
-As stated by an AI agent, "BASEX was a clever, resource-efficient tool for 1970s 8-bit hobbyists who wanted BASIC-like simplicity with compiled performance on 8080 hardware. It exemplifies the creative, low-level software experimentation of the pre-IBM PC era, when publishing full compiler listings with source code in a printed manual was a practical distribution method. It was one of several niche languages/compilers, aimed at enthusiasts who built or modified their own systems."
+As stated by an AI agent, "*BASEX was a clever, resource-efficient tool for 1970s 8-bit hobbyists who wanted BASIC-like simplicity with compiled performance on 8080 hardware. It exemplifies the creative, low-level software experimentation of the pre-IBM PC era, when publishing full compiler listings with source code in a printed manual was a practical distribution method. It was one of several niche languages/compilers, aimed at enthusiasts who built or modified their own systems.*"
 
 As noted in the January 1981 review of BASEX by Mark Northrup in the Sorcerers Apprentice, "In general, the faults far out-weigh the benefits for this compiler. It is faster than BASIC but you pay for this speed with longer debugging time and much more coding. It is very good for animated graphic games, but not for most other applications.". Please refer to the reviews further down in this page. 
 
@@ -35,17 +35,15 @@ JMP NE TAG
 
 In rebuilding my Exidy Sorcerer Space Invaders development environment from the 1980-era I came to realize that there was next to no information online about BASEX. This repository strives to rebuild a basic history of BASEX as a time capsule for others to reference in the future. In no means is this a defacto historical snapshot but it does capture most of what I came to resurrect from my early 1980's hand's on experience with it. It was indeed faster for my Space Invader's game but far too cumbersome to use and very quirky. 
 
-snap2.jpg
-
 <div style="text-align:center">
-<img src="https://github.com/rcl9/Cypher-Z80-68000-Single-Board-Computer-1984-by-Motel-Computers---History-and-Documentation/blob/main/Images/RCL's%20Motel%20Computers%20Z80-68000%20system%20setup.jpg" alt="" style="width:70%; height:auto;">
+<img src="https://github.com/rcl9/Resurrecting-and-Rebuilding-Sorcerer-Space-Invaders-from-1980--BASEX-/blob/main/Images/snap2.webp" alt="" style="width:75%; height:auto;">
 </div>
 
 I had spent considerable time locating Paul K. Warme (retired accountant from State College, PA) and was able to make email contact in June 2026. I penned several long emails to him offering to help "Make the BASEX name well known again" and "to capture its legacy for future generations". However, regardless of all of my good suggestions and extended emails, he simply did not want to help in rebuilding some of his history with BASEX, in making any comments whatsoever, nor in offering to make an official snapshot of it available to the current and future retro-computing community. This is rather unfortunate as my work and intent is purely to his benefit and to the legacy of the product. I have taken several months to pull together this historical archive but with no help from its original program author. 
 
-## Some Initial Perspective of BASEX and Why It was Needed in 1977
+## Some Initial Perspective of BASEX and Why It was Needed in 1979
 
-Perspective is very important when understanding why BASEX was needed in the 1977-1979 era. Microsoft had only released its initial BASIC interpreter for 8080 machines in 1975 and for which it started to appear on PET, TRS-80, Apple, Exidy Sorcerer and other related "consumer" machines around 1977-1978. Machines of that era typically had 4K of memory, very limited computing power and peripherals, and most often restricted to a 300 baud or 1200 baud cassette tape interface for data storage. Access to a disk drive with CP/M wouldn't become "more affordable" until well into the early 1980s and 5MB to 20MB hard disks not until the mid 1980s (for example, my Morrow SSDD 8" floppy disk unit + S-100 controller card + CP/M 2.2 were priced at US$1200 + US$300 for Microsoft Disk BASIC in 1980 dollars, or 3x more in current dollars).
+Perspective is very important when understanding why BASEX was needed in the 1979 era. Microsoft had only released its initial BASIC interpreter for 8080 machines in 1975 and for which it started to appear on PET, TRS-80, Apple, Exidy Sorcerer and other related "consumer" machines around 1977-1978. Machines of that era typically had 4K of memory, very limited computing power and peripherals, and most often restricted to a 300 baud or 1200 baud cassette tape interface for data storage. Access to a disk drive with CP/M wouldn't become "more affordable" until well into the early 1980s and 5MB to 20MB hard disks not until the mid 1980s (for example, my Morrow SSDD 8" floppy disk unit + S-100 controller card + CP/M 2.2 were priced at US$1200 + US$300 for Microsoft Disk BASIC in 1980 dollars, or 3x more in current dollars).
 
 Microsoft's BASCOM (BASIC compiler) did not come out until 1979 and Digital Research's CBASIC (compiled BASIC) not until a few years later. And both were disk-based CP/M software packages, with fairly hefty price tags, which were outside the scope of most non-business users. 
 
@@ -107,29 +105,29 @@ Please refer to my [hand written command list for BASEX](/Other info/List of BAS
 
 ## Industry mentions of BASEX (1980 and 1981)
 
-1. BASEX Overview by Paul Warme - <a href="https://archive.org/details/dr_dobbs_journal_vol_03">Dr. Dobbs - Vol 3 #30</a>, page 26 and/or 451.
+- BASEX Overview by Paul Warme - <a href="https://archive.org/details/dr_dobbs_journal_vol_03">Dr. Dobbs - Vol 3 #30</a>, page 26 and/or 451.
 
-> A detailed 7 page article written by its author Paul Warme. I'll refer you to this document if you want to get a better overview of BASEX. 
+	A detailed 7 page article written by its author Paul Warme. I'll refer you to this document if you want to get a better overview of BASEX. 
 
-1. <a href="https://archive.org/details/CreativeComputingbetterScan198010/page/n47">Creative Computing v6 #10, October 1980, page 47</a>
+- <a href="https://archive.org/details/CreativeComputingbetterScan198010/page/n47">Creative Computing v6 #10, October 1980, page 47</a>
 
-> A one page review of BASEX by Ray C. Horn Jr. 
+	A one page review of BASEX by Ray C. Horn Jr. 
 
-1. <a href="https://archive.org/details/bitsavers_exidySorcerersApprenticeV3N1Jan1981_1943278">Sorcerers Apprentice, v3 #1, January 1981</a>
+- <a href="https://archive.org/details/bitsavers_exidySorcerersApprenticeV3N1Jan1981_1943278">Sorcerers Apprentice, v3 #1, January 1981</a>
 
-> Mark Northrup provides a hand's on review of using BASEX. He was generally not too happy about using it. I can chime in and say that his comments were valid and inline with my own "head banging" experience of using BASEX:
+	Mark Northrup provides a hand's on review of using BASEX. He was generally not too happy about using it. I can chime in and say that his comments were valid and inline with my own "head banging" experience of using BASEX:
 
-> "The major problem with BASEX is that it is somewhat weak on error checking as Dr. Warme had warned in Dr. Dobbs. It is very weak, although none of the programs I have written went "wild", there are far too many ways to get into frustrating trouble. Inserting and deleting lines is at best a dangerous proposition."
+	"The major problem with BASEX is that it is somewhat weak on error checking as Dr. Warme had warned in Dr. Dobbs. It is very weak, although none of the programs I have written went "wild", there are far too many ways to get into frustrating trouble. Inserting and deleting lines is at best a dangerous proposition."
 
-> "In general, the faults far out-weigh the benefits for this compiler. It is faster than BASIC, but you pay for this speed with longer debugging time and much more coding. It is very good for animated graphic games, but not for most other applications."
+	"In general, the faults far out-weigh the benefits for this compiler. It is faster than BASIC, but you pay for this speed with longer debugging time and much more coding. It is very good for animated graphic games, but not for most other applications."
 
-1. Snippet from the March 1979 issue of BYTE magazine:
+- Snippet from the March 1979 issue of BYTE magazine:
 
-> "BASEX, a new compact, compiled language for microcomputers, has many of the best features of BASIC and the 8080 assembly language — and it can be run on any of the 8080 style microprocessors.
+	"BASEX, a new compact, compiled language for microcomputers, has many of the best features of BASIC and the 8080 assembly language — and it can be run on any of the 8080 style microprocessors.
 
-> Subroutines in the BASEX operating system typically execute programs up to five times faster than equivalent programs in a BASIC interpreter - while requiring about half the memory space. In addition, BASEX has most of the powerful features of good BASIC interpreters including: Array variables, Text strings, Arithmetic operations on signed 16 bit integers and Versatile I/O communication functions.
+	Subroutines in the BASEX operating system typically execute programs up to five times faster than equivalent programs in a BASIC interpreter - while requiring about half the memory space. In addition, BASEX has most of the powerful features of good BASIC interpreters including: Array variables, Text strings, Arithmetic operations on signed 16 bit integers and Versatile I/O communication functions.
 
-> The author, Paul Warme, has also included a BASEX Loader program which is capable of relocating programs anywhere in memory."
+	The author, Paul Warme, has also included a BASEX Loader program which is capable of relocating programs anywhere in memory."
 
 ## The BASEX Runtime Environment
 
@@ -169,6 +167,7 @@ The BASEX compiler could then be executed via "GO 0100" in the Exidy Monitor. Wh
 
 Thereafter the program could be listed via "LST". Or, it could be run via "RUN XXX" where XXX is the address of the first line of code (if you don't provide XXX then BASEX aborts its UI and ends up in the Exidy monitor). There is little or no error reporting if something goes wrong or it crashes as you'll just end up being back at the Exidy monitor's prompt. 
 
+<!--
 ## How to view the BASEX Compiler Source Code
 
 The original manual (available online elsewhere) provides a listing for the BASEX compiler and runtime system but the compiler can also be listed via itself. For my own setup in particular (with BASEX residing from 0x09DC to 0x20ff):
@@ -178,6 +177,7 @@ The original manual (available online elsewhere) provides a listing for the BASE
 2. List the main code with "LST 2554 7088"
 
 3. List the symbol table with "LSM 7102"
+-->
 
 ## Utility Program to dump a BASEX Symbol File
 
