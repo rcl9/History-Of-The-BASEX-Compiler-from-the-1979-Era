@@ -3,7 +3,7 @@
 This repo acts as a tribute and time capsule to the long lost BASEX compiler of the 1979 era of early computing.
 
 <div style="text-align:center">
-<img src="/Banners/banner1.webp" alt="" style="width:100%; height:auto;">
+<img src="https://github.com/rcl9/Resurrecting-and-Rebuilding-Sorcerer-Space-Invaders-from-1980--BASEX-/blob/main/Images/snap2.webp" alt="" style="width:100%; height:auto;">
 </div>
 
 The BASEX compiler and runtime system was written by Paul K. Warme in the late 1970s as a faster byte-code interpreted version of BASIC that ran on the 8080 and Z80 platforms. It was touted and marketed as running 5 to 20 times faster than BASIC but in reality that was not quite the case. It sat half-way in speed between a BASIC interpreter and pure assembler. Its price was in the US$25-US$33 range + US$8 for the printed manual (in 1980s dollars).
