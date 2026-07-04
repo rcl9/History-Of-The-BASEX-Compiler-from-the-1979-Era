@@ -1,0 +1,129 @@
+Relational Operators
+-----------------------
+
+EQ
+NE
+LT
+GT
+LE
+GE
+
+Monitor / System Commands
+--------------------------------
+
+LST	- list all or part of the program 
+LSM	- list all or part of the symbol table
+
+MON	- Exit to monitor
+
+LOC	- Set program pointer
+
+INS	- Insert one or more program statements
+DLT	- Delete one or more program statements
+
+SIZ	- Print program size
+
+RUN 	- Run the program
+
+DMP 	- Dump one or more memory values)
+NTR	- Enter one or more memory values)
+
+PNT
+GO1 
+GO2 
+GO3
+
+BASIC Statement Keywords
+------------------------------
+
+X,Y and Z are variables or constants
+A( is an array
+S$ is a string
+"TEXT" is a string constant
+Variable names can be any length
+
+>> Pseudo-Operations
+
+*** START	- Program labels
+DIM A( 10 S$ 80 	- Dimension arrays & strings
+END		- End of program
+REM !BASEX! 	- Comments
+
+>> Arithmetic Commands  (the results are in the accumulator)
+
+ABS X 		Absolute value
+ADD X+Y 	Add
+DEC X 		Decrement
+DIV X/Y 		Divide
+INC X 		Increment
+MLT X*Y 		Multiply
+SBT X-Y 		Subtract
+
+>> Logical Commands (results are in the accumulator)
+
+AND X&Y 	Logical AND
+NOT X 		Complement
+IOR X#Y 		Inclusive OR
+XOR X%Y 	Exclusive OR
+
+>> Memory Search and Move Commands
+
+BSR X Y Z	- Search from X to Y for byte Z
+WSR X Y Z	- Search from X to Y for word Z
+
+MOV X Y Z	- Move memory from X through Y to Z
+
+>> Input/Output Commands
+
+CHR X		- Print character
+DSI		- Disable/enable interrupts
+ENI		- Enable interrupts
+INP X A( Y S$ Z ... 	- Input
+PRT X A( Y S$ Z "TEXT" ... 	- Print
+TAB Y		- Tab to column Y
+XIN X		- Read input port
+XOT X		- Write output port
+WAT X Y		- Wait for condition Y on port X
+
+>> Input/Output Commands
+
+CAL X Y Z	- Call subroutine X
+FOR X=Y 	TIL X+Y>Z  - Loop
+GET Y 		- Pass Y to subroutine
+GTO Y 		- Unconditional branch
+JMP CC X 	- Jump to X on condition CC = EQ, NE, LT, GT, LE, or GE)
+PUT Z		- Return Z to caller
+RET		- Return from subroutine
+
+>> String Commands
+
+CMP S$ X Y-S$ Z	- Compare strings
+CMP S$ X Y-"TEXT"	- Compare strings
+LEN S$ X 		- Length of string
+STR X=S$ Y	- String to variable transfer
+STR A( X=S$ Y 	- String to variable transfer
+STR S$ X X=Y	- Variable to string transfer
+STR S$ X X=A( Y	- Variable to string transfer
+STR S$ X Y=S$ Z	- String to string transfer
+STR S$ X Y="TEXT"	- String to string transfer
+VAL S$ X		- Numeric value of string
+
+>> Load and Store Commands
+
+BRD X (read byte at X)
+BRT X=Y Z	- Write bytes from X onward
+DAT A ( X=Y Z... 	- Initialize an array
+SET X=Y 		- Equate variables
+SET A( L=X  	- Equate variables
+DEF X=Y A( L=X	- Equate variables
+WRD X (read word at X)
+WRT (write words from X onward)
+
+>> Other commands 
+
+CLS		- Clear entire screen
+KBD		- Get char. from keyboard - Result in A & DE
+POS X, Y		- Move cursor to x,y location. H = column#  , L = Line #
+PRN
+PRT		- Enter with A = Character to print
+RND X		-  `A`= limit of random number (0-255). Exit DE= random # and A= random #
