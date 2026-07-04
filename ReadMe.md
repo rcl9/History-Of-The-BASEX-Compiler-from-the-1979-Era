@@ -1,9 +1,9 @@
 # History of 8080-Z80 BASEX Compiler from the 1979 Era
 
-This repo acts as a tribute and time capsule to the long lost BASEX compiler of the 1979 era of early computing.
+This repo acts as a tribute and time capsule to the long lost *BASEX* compiler of the 1979 era of early 8080/Z80 computing.
 
 <div style="text-align:center">
-<img src="/Banners/banner1.webp" alt="" style="width:75%; height:auto;">
+<img src="/Banners/banner1.webp" alt="" style="width:60%; height:auto;">
 </div>
 
 The BASEX compiler and runtime system was written by Paul K. Warme in the late 1970s as a faster byte-code interpreted version of BASIC that ran on the 8080 and Z80 platforms. It was touted and marketed as running 5 to 20 times faster than BASIC but in reality that was not quite the case. It sat half-way in speed between a BASIC interpreter and pure assembler. Its price was in the US$25-US$33 range + US$8 for the printed manual (in 1980s dollars).
@@ -12,7 +12,7 @@ You can learn more about BASEX in the 7 page "<a href="https://archive.org/detai
 
 As stated by an AI agent, "*BASEX was a clever, resource-efficient tool for 1970s 8-bit hobbyists who wanted BASIC-like simplicity with compiled performance on 8080 hardware. It exemplifies the creative, low-level software experimentation of the pre-IBM PC era, when publishing full compiler listings with source code in a printed manual was a practical distribution method. It was one of several niche languages/compilers, aimed at enthusiasts who built or modified their own systems.*"
 
-As noted in the January 1981 review of BASEX by Mark Northrup in the Sorcerers Apprentice, "In general, the faults far out-weigh the benefits for this compiler. It is faster than BASIC but you pay for this speed with longer debugging time and much more coding. It is very good for animated graphic games, but not for most other applications.". Please refer to the reviews further down in this page. 
+As noted in the January 1981 review of BASEX by Mark Northrup in the Sorcerers Apprentice, "In general, the faults far out-weigh the benefits for this compiler. It is faster than BASIC but you pay for this speed with longer debugging time and much more coding. It is very good for animated graphic games, but not for most other applications". Please refer to the reviews further down in this page. 
 
 A BASEX program is defined by a 3 character opcode with variable number of arguments, such as this contrived code:
 
@@ -33,11 +33,12 @@ SBT I-A
 JMP NE TAG 
 ```
 
-In rebuilding my Exidy Sorcerer Space Invaders development environment from the 1980-era I came to realize that there was next to no information online about BASEX. This repository strives to rebuild a basic history of BASEX as a time capsule for others to reference in the future. In no means is this a defacto historical snapshot but it does capture most of what I came to resurrect from my early 1980's hand's on experience with it. It was indeed faster for my Space Invader's game but far too cumbersome to use and very quirky. 
+In rebuilding my Exidy Sorcerer [Space Invaders development environment](https://github.com/rcl9/Resurrecting-and-Rebuilding-Sorcerer-Space-Invaders-from-1980--BASEX-) from the 1980-era I came to realize that there was next to no information online about BASEX. This repository strives to rebuild a basic history of BASEX as a time capsule for others to reference in the future. In no means is this a defacto historical snapshot but it does capture most of what I came to resurrect from my early 1980's hand's on experience with it. It was indeed faster for my Space Invader's game but far too cumbersome to use and very quirky. 
 
 <div style="text-align:center">
-<img src="https://github.com/rcl9/Resurrecting-and-Rebuilding-Sorcerer-Space-Invaders-from-1980--BASEX-/blob/main/Images/snap2.webp" alt="" style="width:75%; height:auto;">
+<p><img src="https://github.com/rcl9/Resurrecting-and-Rebuilding-Sorcerer-Space-Invaders-from-1980--BASEX-/blob/main/Images/snap2.webp" alt="" style="width:50%; height:auto;">
 </div>
+<br>
 
 I had spent considerable time locating Paul K. Warme (retired accountant from State College, PA) and was able to make email contact in June 2026. I penned several long emails to him offering to help "Make the BASEX name well known again" and "to capture its legacy for future generations". However, regardless of all of my good suggestions and extended emails, he simply did not want to help in rebuilding some of his history with BASEX, in making any comments whatsoever, nor in offering to make an official snapshot of it available to the current and future retro-computing community. This is rather unfortunate as my work and intent is purely to his benefit and to the legacy of the product. I have taken several months to pull together this historical archive but with no help from its original program author. 
 
@@ -71,7 +72,7 @@ for the Exidy Sorcerer using its PacBasic. However, I found it very slow so I op
 
 I may have ended up being one of the few people on this planet to write a large software game application entirely in BASEX and with no text editor nor any way to save/load the listing quickly (ie. via floppy disks in CP/M) other than through slow 1200 baud cassette tapes. It is utterly unbelievable today that I was able to write this complex application in any regard. A modern programmer who uses an IDE, a complex code editor and a PC would not be able to fathom what I had to endure in 1980. Alas, I didn't know any better at the time since having a personal computer like the Exidy Sorcerer was by itself a gift. Coding in BASEX was like writing software in Neanderthal times. And getting all of this to run again 45 years later in an emulator was like starting with a large puzzle with few clues, driven by intrigue and the desire to rebuild what memories I once did of the project.
 
-BASEX provides a limited set of [byte-code instructions](/Other info/List of BASEX commands.txt) which are executed via a common runtime library. For example, a snippet of my Space Invaders code is shown below:
+BASEX provides a limited set of [byte-code instructions](</Other info/List of BASEX commands.txt>) which are executed via a common runtime library. For example, a snippet of my Space Invaders code is shown below:
 
 ```
 8496 WRT 252=0 
@@ -89,19 +90,19 @@ BASEX provides a limited set of [byte-code instructions](/Other info/List of BAS
 
 ## Core Language Style
 
-Please refer to my [hand written command list for BASEX](/Other info/List of BASEX commands.txt).
+Please refer to my [hand written command list for BASEX](</Other info/List of BASEX commands.txt>).
 
 - Line-numbered programs (like classic BASIC): ex. `140`, `150`, `760`.
 
 - Interactive compiler: You enter/edit/run programs directly (no separate editor or linker needed). Commands resemble BASIC for easy learning/translation.
 
-- Variables: Signed 16-bit integers only (–32,768 to +32,767). No floating-point.
+- Variables: Signed 16-bit integers only (-32,768 to +32,767). No floating-point.
 
 - Arrays: Supported
 
 - Strings: HP-BASIC style . You must pre-declare the maximum length. Each character can be addressed like a 1D array element.
 
-- No strong error checking: Overflows, bad input, or string overflows often cause a “dump” (crash to monitor) with no helpful message or flag.
+- No strong error checking: Overflows, bad input, or string overflows often cause a 'dump' (crash to monitor) with no helpful message or flag.
 
 ## Industry mentions of BASEX (1980 and 1981)
 
@@ -123,7 +124,7 @@ Please refer to my [hand written command list for BASEX](/Other info/List of BAS
 
 - Snippet from the March 1979 issue of BYTE magazine:
 
-	"BASEX, a new compact, compiled language for microcomputers, has many of the best features of BASIC and the 8080 assembly language — and it can be run on any of the 8080 style microprocessors.
+	"BASEX, a new compact, compiled language for microcomputers, has many of the best features of BASIC and the 8080 assembly language - and it can be run on any of the 8080 style microprocessors.
 
 	Subroutines in the BASEX operating system typically execute programs up to five times faster than equivalent programs in a BASIC interpreter - while requiring about half the memory space. In addition, BASEX has most of the powerful features of good BASIC interpreters including: Array variables, Text strings, Arithmetic operations on signed 16 bit integers and Versatile I/O communication functions.
 
@@ -181,7 +182,7 @@ The original manual (available online elsewhere) provides a listing for the BASE
 
 ## Utility Program to dump a BASEX Symbol File
 
-I wrote a [simple utility program](/RCL's BASEX symbol table dumper) to dump the contents of a BASEX symbol file, sorted either by symbol name or its value. It also handles string arrays and variable arrays.
+I wrote a [simple utility program](</RCL's BASEX symbol table dumper>) to dump the contents of a BASEX symbol file, sorted either by symbol name or its value. It also handles string arrays and variable arrays.
 
 This is useful if you want to look-up some values as referenced in the orignal BASEX program, or cross reference some machine language code against where it may be called from the BASEX program.
 
@@ -193,6 +194,6 @@ There is also the "BASEX Northstar Tape and Disk Guide" of 1978 by Paul Warme.
 
 ## Other References in this Repository
 
-[My hand written command list for BASEX](/Other info/List of BASEX commands.txt)
+[My hand written command list for BASEX](</Other info/List of BASEX commands.txt>)
 
-[The source code to my BASEX symbol table dumper program, written in C++](/RCL's BASEX symbol table dumper)
+[The source code to my BASEX symbol table dumper program, written in C++](</RCL's BASEX symbol table dumper>)
